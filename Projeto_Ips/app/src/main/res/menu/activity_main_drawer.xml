@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnHistoric"
+            android:background="@drawable/custom_input"
+            android:title="@string/btnHistoric" />
+        <item
+            android:id="@+id/btnDashboard"
+            android:title="@string/dashboard"/>
+        <item
+            android:id="@+id/btnProfile"
+            android:title="@string/btnProfile" />
+        <item
+            android:id="@+id/btnLogOut"
+            android:title="@string/logout"/>
+    </group>
+</menu>

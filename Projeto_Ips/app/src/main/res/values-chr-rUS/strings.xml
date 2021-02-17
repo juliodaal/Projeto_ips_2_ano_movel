@@ -1,0 +1,80 @@
+<resources>
+    /*Titles Activities*/
+    <string name="app_name">GTR</string>
+    <string name="sign_in">Sign in</string>
+    <string name="support">Support</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="qrcode">Scan a box</string>
+    <string name="historic">Historic</string>
+    <string name="profile">Profile</string>
+    /*Labels*/
+    <string name="titleAppLabel">Good To Recycle</string>
+    <string name="titleSignInLabel">Sign In</string>
+    <string name="titleDashboardLabel">Dashboard</string>
+    <string name="supportLabel">Support</string>
+    <string name="labelEmail">info@goodtorecycle.com</string>
+    <string name="labelPhone">444-555-666</string>
+    <string name="subtitleAppLabel">Help your planet and those who live there.</string>
+    <string name="labelId">Id Box:</string>
+    <string name="labelCurrentQuantity">Current Quantidate:</string>
+    <string name="labelWeight">Weight (kg):</string>
+    <string name="labelDate">Deta</string>
+    /*Buttons*/
+    <string name="btnGoSignIn">Sign In</string>
+    <string name="btnGoToWebSite">Go To The WebSite</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="btnQrCode">Scanning via Qr Code</string>
+    <string name="btnSendBoxData">Register emptying</string>
+    <string name="logout">Log out</string>
+    /*Hints*/
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintIdExample">Example : 34</string>
+    <string name="hintQuantityExample">Example : 200</string>
+    <string name="hintWeightExample">Example : 2</string>
+    <string name="hintDateExample">Example : YYYY-MM-DD</string>
+    /*Error*/
+    <string name="invalidEmail">e-mail space Empty!</string>
+    <string name="invalidPassword">password space Empty!</string>
+    <string name="invalidId">Id Space Empty!</string>
+    <string name="invalidQuantity">Current Quantity Space Empty!</string>
+    <string name="invalidWeight">Space Weight empty!</string>
+    <string name="invalidDate">Space Date empty!</string>
+    <string name="invalidCredentials">Invalid credentials!</string>
+    <string name="unexpectedResponse">Unexpected response!</string>
+    <string name="errorDashboard">Dashboard loading error!</string>
+    <string name="errorCatchingData">Errors in Data Capture</string>
+    <string name="invalidDataServer">Invalid Server Data</string>
+    <string name="errorPackingData">Data packaging error</string>
+    <string name="invalidData">Invalid Data</string>
+    <string name="errorShowingFeedBack">Error to show the feedBack to the User</string>
+    <string name="dataRegisterSuccessfuly">Data Successfully Registered!</string>
+    /*Permissions*/
+    <string name="permission_rationale_location">These permissions are necessary for the application to function correctly.</string>
+    <string name="location_permission_denied">These permissions are necessary for the
+    application to work correctly. Please try again and give the application the necessary permissions.
+    application. If permissions have been denied permanently you can change this decision
+    manually in your device settings.</string>
+    <string name="permission_required_toast">Location permission is required for thisdemo.</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Good To Recycle</string>
+    <string name="nav_header_subtitle">projeto-final-ips-2-ano.herokuapp.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="btnHistoric">Historic</string>
+    <string name="btnProfile">Profile</string>
+</resources>

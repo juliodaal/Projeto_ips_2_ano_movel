@@ -1,0 +1,80 @@
+<resources>
+    /*Titles Activities*/
+    <string name="app_name">GTR</string>
+    <string name="sign_in">Iniciar Sesión</string>
+    <string name="support">Soporte</string>
+    <string name="dashboard">Panel de control</string>
+    <string name="qrcode">Escanear box</string>
+    <string name="historic">Historico</string>
+    <string name="profile">Perfil</string>
+    /*Labels*/
+    <string name="titleAppLabel">Good To Recycle</string>
+    <string name="titleSignInLabel">Iniciar Sesión</string>
+    <string name="titleDashboardLabel">Panel de control</string>
+    <string name="supportLabel">Soporte</string>
+    <string name="labelEmail">info@goodtorecycle.com</string>
+    <string name="labelPhone">444-555-666</string>
+    <string name="subtitleAppLabel">Ajuda a tu planeta y a quien en él vive.</string>
+    <string name="labelId">Identifícador Box:</string>
+    <string name="labelCurrentQuantity">Cantidad Actual:</string>
+    <string name="labelWeight">Peso (kg):</string>
+    <string name="labelDate">Fecha</string>
+    /*Buttons*/
+    <string name="btnGoSignIn">Iniciar Sesión</string>
+    <string name="btnGoToWebSite">Ir para el sitio Web</string>
+    <string name="btnSignIn">Iniciar Sesión</string>
+    <string name="btnQrCode">Escanear a través del código QR</string>
+    <string name="btnSendBoxData">Registar vaciamiento</string>
+    <string name="logout">Salir</string>
+    /*Hints*/
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Catraseña</string>
+    <string name="hintIdExample">Ejemplo : 34</string>
+    <string name="hintQuantityExample">Ejemplo : 200</string>
+    <string name="hintWeightExample">Ejemplo : 2</string>
+    <string name="hintDateExample">Ejemplo : YYYY-MM-DD</string>
+    /*Error*/
+    <string name="invalidEmail">Espacio email vacío!</string>
+    <string name="invalidPassword">Espacio contraseña vacío!</string>
+    <string name="invalidId">Espacio Identificador vacío!</string>
+    <string name="invalidQuantity">Espacio Cantidad Actual vacío!</string>
+    <string name="invalidWeight">Espacio Peso vacío!</string>
+    <string name="invalidDate">Espacio Fecha vacío!</string>
+    <string name="invalidCredentials">Credenciales inválidas!</string>
+    <string name="unexpectedResponse">Respuesta inesperada!</string>
+    <string name="errorDashboard">Error en la carga del Panel de control!</string>
+    <string name="errorCatchingData">Error en la  Captura de Datos</string>
+    <string name="invalidDataServer">Datos inválidos del Servidor</string>
+    <string name="errorPackingData">Error en la paquetación de datos</string>
+    <string name="invalidData">Datos Inválidos</string>
+    <string name="errorShowingFeedBack">Error para mostrar feedBack al Usuario</string>
+    <string name="dataRegisterSuccessfuly">Datos Registrados con Éxito!</string>
+    /*Permissions*/
+    <string name="permission_rationale_location">Estos permisos son necesarios para que la aplicación funcione correctamente.</string>
+    <string name="location_permission_denied">Estos permisos son necesarios para el
+    para que la aplicación funcione correctamente. Por favor, inténtalo de nuevo y dale los permisos necesarios al
+    aplicación. Si se han denegado los permisos de forma permanente, puede cambiar esta decisión
+    manualmente en la configuración de su dispositivo.</string>
+    <string name="permission_required_toast">Se requiere permiso de ubicación para esta demostración.</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="invalid_username">No es un nombre de usuario válido</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Good To Recycle</string>
+    <string name="nav_header_subtitle">projeto-final-ips-2-ano.herokuapp.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="btnHistoric">Historico</string>
+    <string name="btnProfile">Perfil</string>
+</resources>

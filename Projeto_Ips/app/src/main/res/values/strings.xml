@@ -1,0 +1,80 @@
+<resources>
+    /*Titles Activities*/
+    <string name="app_name">GTR</string>
+    <string name="sign_in">Iniciar Sessão</string>
+    <string name="support">Suporte</string>
+    <string name="dashboard">Painel de instrumentos</string>
+    <string name="qrcode">Faz o scan de uma box</string>
+    <string name="historic">Historico</string>
+    <string name="profile">Perfil</string>
+    /*Labels*/
+    <string name="titleAppLabel">Good To Recycle</string>
+    <string name="titleSignInLabel">Iniciar Sessão</string>
+    <string name="titleDashboardLabel">Painel de instrumentos</string>
+    <string name="supportLabel">Suporte</string>
+    <string name="labelEmail">info@goodtorecycle.com</string>
+    <string name="labelPhone">444-555-666</string>
+    <string name="subtitleAppLabel">Ajuda o teu planeta e quem lá vive.</string>
+    <string name="labelId">Id Box:</string>
+    <string name="labelCurrentQuantity">Quantidate Atual:</string>
+    <string name="labelWeight">Peso (kg):</string>
+    <string name="labelDate">Data</string>
+    /*Buttons*/
+    <string name="btnGoSignIn">Iniciar Sessão</string>
+    <string name="btnGoToWebSite">Ir para o WebSite</string>
+    <string name="btnSignIn">Iniciar Sessão</string>
+    <string name="btnQrCode">Scan através de Qr Code</string>
+    <string name="btnSendBoxData">Registar esvaziamento</string>
+    <string name="logout">Sair</string>
+    /*Hints*/
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Senha</string>
+    <string name="hintIdExample">Exemplo : 34</string>
+    <string name="hintQuantityExample">Exemplo : 200</string>
+    <string name="hintWeightExample">Exemplo : 2</string>
+    <string name="hintDateExample">Exemplo : YYYY-MM-DD</string>
+    /*Error*/
+    <string name="invalidEmail">Espaço e-mail vazio!</string>
+    <string name="invalidPassword">Espaço password vazio!</string>
+    <string name="invalidId">Espaço Id vazio!</string>
+    <string name="invalidQuantity">Espaço Quantidade Atual vazio!</string>
+    <string name="invalidWeight">Espaço Peso vazio!</string>
+    <string name="invalidDate">Espaço Date vazio!</string>
+    <string name="invalidCredentials">Credenciais inválidas!</string>
+    <string name="unexpectedResponse">Resposta inesperada!</string>
+    <string name="errorDashboard">Error no carregamento do Dashboard!</string>
+    <string name="errorCatchingData">Erros na Captura de Dados</string>
+    <string name="invalidDataServer">Dados inválidos do Servidor</string>
+    <string name="errorPackingData">Erro no empacotamento de dados</string>
+    <string name="invalidData">Datos Invalidos</string>
+    <string name="errorShowingFeedBack">Erro para mostrar o feedBack ao Utilizador</string>
+    <string name="dataRegisterSuccessfuly">Dados Registrado com Sucesso!</string>
+    /*Permissions*/
+    <string name="permission_rationale_location">Estas permissões são necessárias para que aaplicação funcione correctamente.</string>
+    <string name="location_permission_denied">Estas permissões são necessárias para que a
+    aplicação funcione correctamente. Por favor tente de novo e dê as permissões necessárias à
+    aplicação. Se as permissões foram negadas de forma definitiva poderá alterar essa decisão
+    manualmente nas definições do seu dispositivo.</string>
+    <string name="permission_required_toast">Location permission is required for thisdemo.</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Não é um nome de utilizador válido</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Good To Recycle</string>
+    <string name="nav_header_subtitle">projeto-final-ips-2-ano.herokuapp.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="btnHistoric">Historico</string>
+    <string name="btnProfile">Perfil</string>
+</resources>

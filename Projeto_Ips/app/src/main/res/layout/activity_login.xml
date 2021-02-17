@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="360dp"
+        android:layout_height="275dp"
+        android:scaleX="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/square" />
+
+    <LinearLayout
+        android:layout_width="283dp"
+        android:layout_height="585dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="283dp"
+                android:layout_height="165dp"
+                app:srcCompat="@drawable/gtelogo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:translationY="-20dp">
+
+                <TextView
+                    android:id="@+id/titleLoginLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/intersemibold"
+                    android:text="@string/titleSignInLabel"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/idLoadFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/inputEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_input"
+                        android:ems="10"
+                        android:fontFamily="@font/intersemibold"
+                        android:hint="@string/hintEmail"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="20dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textColorHint="@color/color_input_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="283dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/inputPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_input"
+                        android:ems="10"
+                        android:fontFamily="@font/intersemibold"
+                        android:hint="@string/hintPassword"
+                        android:inputType="textPassword"
+                        android:paddingLeft="20dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textColorHint="@color/color_input_dark" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnSingIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="@font/intersemibold"
+                    android:text="@string/btnSignIn"
+                    android:textColorHint="@android:color/darker_gray"
+                    app:backgroundTint="@color/success" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
